@@ -1,0 +1,6 @@
+ol 
+    each word in words 
+        if word.wordtype 
+            li (#{word.wordtype}) : #{word.definition}
+        else 
+            li : #{word.definition}
