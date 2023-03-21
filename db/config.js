@@ -4,8 +4,9 @@ const config ={
         port:'3306',
         user: 'root',
         password: 'Seav@0305',
-        database: 'entries'
+        database: 'entries',
     }
 };
  
 module.exports = config;
+ 
